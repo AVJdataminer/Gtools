@@ -12,10 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# [START calendar_quickstart]
+# Change the flow = to your personal google calendar api credentials stored on your local machine.
 """
-Shows basic usage of the Google Calendar API. Creates a Google Calendar API
-service object and outputs a list of the next 10 events on the user's calendar.
+Shows basic usage of the Google Calendar API.This was created from the basic quickstart.py for google calendar API.
 """
 from __future__ import print_function
 from apiclient.discovery import build
@@ -72,4 +71,4 @@ for event in events:
     df=pd.DataFrame(d, columns=('Date', 'Item','Allocate Towards','Rate','Qty in Hours','Total'))
     df.to_csv('gtime_sheet.csv')
     #np.savetxt("gtime_sheet.csv", c, delimiter=",")
-# [END calendar_quickstart]
+# [END]
