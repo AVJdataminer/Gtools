@@ -24,7 +24,7 @@ service = build('calendar', 'v3', http=creds.authorize(Http()))
 # Call the Calendar API
 #now = datetime.datetime.utcnow().isoformat() + 'Z' # 'Z' indicates UTC time
 UTC_OFFSET_TIMEDELTA = datetime.datetime.utcnow() - datetime.datetime.now()
-local_datetime = datetime.datetime.strptime("2018-07-22 08:00:00", "%Y-%m-%d %H:%M:%S")
+local_datetime = datetime.datetime.strptime("2018-08-05 08:00:00", "%Y-%m-%d %H:%M:%S")
 result_utc_datetime = local_datetime + UTC_OFFSET_TIMEDELTA
 now=result_utc_datetime.isoformat()+'Z'
 
