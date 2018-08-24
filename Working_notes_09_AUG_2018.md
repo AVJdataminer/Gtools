@@ -18,9 +18,9 @@ output:
  \+ Updating timesheet_maker.py . 
  \+ create a function from script  
     \-1. type start date and stop date into print_function    
-    \-2. potentially ask for credential location 
-      \-a. Add a file selection loction for json
-      \-b. Add instructions for setting up google calendar credntials
+    \-2. potentially ask for credential location  
+      \-a. Add a file selection loction for json . 
+      \-b. Add instructions for setting up google calendar credntials . 
     \*3. return a nice printing of events for time period  
     \*4. read in excel template and feed events into template  
     \*5. solve the totals columns  
@@ -29,7 +29,7 @@ output:
     \-7. email pdf to bill.com  
 
 ---
- ## Currently generates a nice excel file to be printed to pdf as needed.
+ ## Currently generates a nice excel file to be printed to pdf as needed.  
 
 #### For Later
 
